@@ -1,0 +1,72 @@
+#controls {
+    display: flex;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 104px;
+    background: #f6f6fe;
+}
+
+#controls>input {
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding: 8px;
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#controls>button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border-style: none;
+}
+
+#controls>button[data-create] {
+    background: #4e75ff;
+}
+
+#controls>button[data-create]:hover {
+    background: #6c8cff;
+}
+
+#controls>button[data-destroy] {
+    background: #ff4e4e;
+}
+
+#controls>button[data-destroy]:hover {
+    background: #ff7070;
+}
+
+#boxes {
+    display: flex;
+    align-items: flex-start;
+    border-radius: 8px;
+    padding: 32px;
+    width: 486px;
+    height: 134px;
+    background: #f6f6fe;
+}
+
+#boxes>div {
+    margin: 0 auto;
+}
